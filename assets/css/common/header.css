@@ -12,6 +12,7 @@
     display: block;
 }
 
+
 .logo,
 #menu {
     display: flex;
@@ -91,3 +92,4 @@ body:not(.dark) #sun {
 .logo-switches {
     flex-wrap: inherit;
 }
+
