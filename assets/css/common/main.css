@@ -16,6 +16,7 @@
 
     a:hover {
     color: var(--primary);
+    background-color: rebeccapurple;
 }
 
 .pagination a {
