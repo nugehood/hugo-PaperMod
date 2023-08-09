@@ -28,13 +28,12 @@
         {{- else }}
         <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
             height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
-        {{- end }}
-        {{- end }}
-        <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <span>{{ .subtitle | markdownify }} <br> I do <b>video editing</b> <i>&</i> <b>graphic design.</b></span>
-        {{- partial "social_icons.html" site.Params.socialIcons -}}
-
-        
+            {{- end }}
+            {{- end }}
+            <h1>{{ .title | default site.Title | markdownify }}</h1>
+            <span>{{ .subtitle | markdownify }} <br> I do <b>video editing</b> <i>&</i> <b>graphic design.</b></span>
+  
+            {{- partial "social_icons.html" site.Params.socialIcons -}}
 
         {{- with .buttons }}
         <div class="buttons">

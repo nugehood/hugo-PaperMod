@@ -1,9 +1,7 @@
 {{- define "main" }}
-
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
 {{- partial "index_profile.html" . }}
 {{- else }} {{/* if not profileMode */}}
-
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
@@ -86,6 +84,8 @@
 </article>
 {{- end }}
 
+
+
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
   <nav class="pagination">
@@ -107,6 +107,7 @@
     {{- end }}
   </nav>
 </footer>
+
 {{- end }}
 
 {{- end }}{{/* end profileMode */}}
