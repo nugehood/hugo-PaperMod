@@ -1,11 +1,13 @@
 .page-header,
 .post-header {
     margin: 24px auto var(--content-gap) auto;
+    font-family: 'Mediamoure', Times, serif;
 }
 
 .post-title {
     margin-bottom: 2px;
     font-size: 40px;
+    font-family: 'Mediamoure', Times, serif;
 }
 
 .post-description {
@@ -34,6 +36,8 @@
 
 .post-content {
     color: var(--content);
+    font-family: 'Georgia', Times, serif;
+    text-align: justify;
 }
 
 .post-content h3,
@@ -41,6 +45,7 @@
 .post-content h5,
 .post-content h6 {
     margin: 24px 0 16px;
+    font-family: 'Mediamoure', Times, serif;
 }
 
 .post-content h1 {
@@ -51,6 +56,7 @@
 .post-content h2 {
     margin: 32px auto 24px;
     font-size: 32px;
+    font-family: 'Mediamoure', Times, serif;
 }
 
 .post-content h3 {
