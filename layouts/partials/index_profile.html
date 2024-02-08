@@ -4,7 +4,7 @@
         {{- if .imageUrl -}}
         {{- $img := "" }}
         {{- if not (urls.Parse .imageUrl).IsAbs }}
-            {{- $img = resources.Get .imageUrl }}
+        {{- $img = resources.Get .imageUrl }}
         {{- end }}
         {{- if $img }}
             {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
@@ -31,10 +31,12 @@
             {{- end }}
             {{- end }}
             <h1>{{ .title | default site.Title | markdownify }}</h1>
-            <span>{{ .subtitle | markdownify }} <br> I do <b>video editing</b> <i>&</i> <b>graphic design.</b></span>
+            <span>{{ .subtitle | markdownify }} <br> </span>
   
             {{- partial "social_icons.html" site.Params.socialIcons -}}
-
+            <div class="buttons">
+                <a class="button" href="https://nuge.bearblog.dev/">🍳 Cooking Blog</a>
+            </div>
         {{- with .buttons }}
         <div class="buttons">
             {{- range . }}
