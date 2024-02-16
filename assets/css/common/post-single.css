@@ -12,6 +12,7 @@
 .post-description {
     margin-top: 10px;
     margin-bottom: 5px;
+    font-family: 'Source Serif Pro', serif;
 }
 
 .post-meta,
@@ -35,12 +36,15 @@
 
 .post-content {
     color: var(--content);
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
 }
 
 .post-content h3,
 .post-content h4,
 .post-content h5,
 .post-content h6 {
+    font-family: 'Coolvetica', sans-serif;
     margin: 24px 0 16px;
 }
 
@@ -50,11 +54,13 @@
 }
 
 .post-content h2 {
+    font-family: 'Coolvetica', sans-serif;
     margin: 32px auto 24px;
     font-size: 32px;
 }
 
 .post-content h3 {
+    font-family: 'Coolvetica', sans-serif;
     font-size: 24px;
 }
 

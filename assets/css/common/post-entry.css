@@ -17,6 +17,7 @@
 .first-entry .entry-header h1 {
     font-size: 34px;
     line-height: 1.3;
+    font-family: 'Coolvetica', sans-serif;
 }
 
 .first-entry .entry-content {
@@ -41,6 +42,7 @@
     border-radius: var(--radius);
     transition: transform 0.1s;
     border: 1px solid var(--border);
+    font-family: 'Coolvetica', sans-serif;
 }
 
 .post-entry:active {
@@ -54,6 +56,7 @@
 .entry-header h2 {
     font-size: 25px;
     line-height: 1.3;
+    font-family: 'Coolvetica', sans-serif;
 }
 
 .entry-content {
@@ -65,11 +68,13 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+    font-family: 'Source Serif Pro', serif;
 }
 
 .entry-footer {
     color: var(--secondary);
     font-size: 13px;
+    font-family: 'Coolvetica', sans-serif;
 }
 
 .entry-link {
