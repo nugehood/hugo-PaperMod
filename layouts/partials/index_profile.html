@@ -33,8 +33,10 @@
             <h1>{{ .title | default site.Title | markdownify }}</h1>
             <span>{{ .subtitle | markdownify }} <br> </span>
   
-            
             {{- partial "social_icons.html" site.Params.socialIcons -}}
+            <div class="buttons">
+                <a class="button" href="https://factorygarden.bearblog.dev/">🏡 Weekly posts</a>
+            </div>
         {{- with .buttons }}
         <div class="buttons">
             {{- range . }}
