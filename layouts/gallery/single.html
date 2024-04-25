@@ -39,7 +39,7 @@
     {{- $images := .Resources.ByType "image" -}}
     {{ range $images }}
     <div class="col-6 col-md-4 col-xl-3 pb-3 px-2">
-      <img src="{{ .RelPermalink }}" height="{{ .Height }}" width="{{ .Width }}" alt="Gallery Image" class="img-fluid">
+     <a title="View in new tab" href="{{ .RelPermalink }}" target="_blank"><img src="{{ .RelPermalink }}" height="{{ .Height }}" width="{{ .Width }}" alt="Gallery Image" class="img-fluid"></a>
     </div>
     {{ end }}
   </div>
